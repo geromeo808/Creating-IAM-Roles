@@ -47,17 +47,28 @@ This project demonstrates how to create and assign roles in AWS IAM. Roles in AW
   - Add Policies that you want this role to have
   - Click 'Next'
   - Name the role & Provide a short description of the role
+    ![Alt text](images/Create-A-Role.png)
   - Click 'Create Role'
+    ![Alt text](images/Review-Role.png)
 ### Step 3: Login using the assigned role
   - Go back to IAM Dashboard
+    ![Alt text](images/IAM-Dashboard.png)
   - Click on 'Roles'
   - Click on the role you created
+    ![Alt text](images/Roles-Menu.png)
   - Copy the link where it says 'Link to switch roles in console'
+    ![Alt text](images/CopyLinkTo-Role.png)
   - Paste into the URL
+    ![Alt text](images/CopiedRoleLink.png)
   - Type in a Display Name and choose a color
+    ![Alt text](images/SwitchRoleLoginScreen.png)
   - Click 'Switch Role'
 ### Step 4: Verify if your permissions has changed between your default identity and the new Role
+  - Depending on the permissions you've set you can see if you have gained or lost access to certain resources.
+    Example of permissions being blocked:
+    ![Alt text](images/ExamplePoliciesBlocked.png)
 ### Step 5: Switch back to default identity
   - Click on your Display name in the top right corner
+    ![Alt text](images/SwitchingBack-Switching-toOtherRoles.png)
   - Click 'Switch Back'
     
