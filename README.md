@@ -26,6 +26,8 @@ This project demonstrates how to create and assign roles in AWS IAM. Roles in AW
 ### Step 1: Get to Roles menu from AWS Management Console
 ---
   - Search and Click on IAM from the AWS Dashboard
+    ![Alt text](images/AWS-Console-Home.png)
+
   - Click on 'Roles'
 ### Step 2: Create a role  
   - Click 'Create a Role'
