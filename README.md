@@ -28,13 +28,17 @@ This project demonstrates how to create and assign roles in AWS IAM. Roles in AW
   - Search and Click on IAM from the AWS Dashboard
     ![Alt text](images/AWS-Console-Home.png)
 
-  - Click on 'Roles'
+  - Click on 'Roles'located in the side menu
     ![Alt text](images/Roles-Menu.png)
 ### Step 2: Create a role  
   - Click 'Create a Role'
+    ![Alt text](images/Create-A-Role.png)
   - Click 'Custom Trust Policy'
+    
   - Click 'Add A Principle'
+    ![Alt text](images/Add-Principle.png)
   - Principle Type Choose 'IAM User'
+    
   - ARN copy and paste the ARN of the IAM user you want to assume this role
   - Click 'Add Principle'
   - Click 'Next'
