@@ -29,6 +29,7 @@ This project demonstrates how to create and assign roles in AWS IAM. Roles in AW
     ![Alt text](images/AWS-Console-Home.png)
 
   - Click on 'Roles'
+    ![Alt text](images/Roles-Menu.png)
 ### Step 2: Create a role  
   - Click 'Create a Role'
   - Click 'Custom Trust Policy'
